@@ -1,2 +1,2 @@
 # desi-etc-randomforest
-Optimization for DESI's ETC done with random forests trained on previous data from exposures-daily.fits
+This is an exploration of finding ways to optimize DESI's ETC with random forests trained on previous telemetry data from exposures-daily.fits
