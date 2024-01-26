@@ -3,4 +3,4 @@ This is an exploration of finding ways to optimize the exposure time calculator 
 
 The scripts are organized into predictions for bright-time and dark-time. The goal of each random forest is to predict the ratio of `'EFFTIME_SPEC'/'EFFTIME_ETC'` for a given night based on its telemetry data (seeing, airmass, EBV, etc...). `'EFFTIME_SPEC'` is the telescope's spectroscopic (offline) effective time and `'EFFTIME_ETC'` is the actual exposure time. Using the random forest predictions to impose corrections, the overall spread of these ratios were reduced. This opens the possibility of improving exposure time calculations in the future to avoid underexposed and overexposed data. Shown below is one of these results for bright-time:
 
-![]()
+![](brightexample.png)
