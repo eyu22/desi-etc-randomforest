@@ -2,7 +2,7 @@
 
 'AIRMASS','EBV', 'TRANSPARENCY_GFA', 'SEEING_GFA', 'FIBER_FRACFLUX_GFA', 'SKY_MAG_AB_GFA','SKY_MAG_G_SPEC','SKY_MAG_R_SPEC','G-R','SKY_MAG_Z_SPEC','EFFTIME_GFA'
 
-### BrightPrevNightCorrections.ipynb
+### BrightRandomForest.ipynb
 
 - uses random forest trained on telemetry parameters of the current night (e.g. Night 1) to predict the ET ratio for the current night (e.g. Night 1)
 - the random forest prediction is then used to reduce outliers and spread by dividing the current ET ratios by the random forest predicted ones such that a perfect prediction would result in a corrected value of 1
